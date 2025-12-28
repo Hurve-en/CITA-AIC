@@ -22,6 +22,8 @@ from datetime import datetime
 import tensorflow as tf
 from tensorflow import keras
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 # Import our custom modules
 import config
 from model import build_model
